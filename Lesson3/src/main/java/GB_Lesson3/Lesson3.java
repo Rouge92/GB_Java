@@ -11,7 +11,6 @@ public class Lesson3 {
         do{
         Random random = new Random();
         int ran = random.nextInt(10);
-        System.out.println(ran);
         for (int i = 3; i != 0; i--) {
             int d = getNumberFromScanner("Угадайте число в пределах от 0 до 9", 0, 9);
             if (d == ran) {
